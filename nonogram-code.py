@@ -403,17 +403,6 @@ print(condition2)
 """
 """
 array = [1,2,3,4,5]
-
-def daman(h):
-    print(h)
-    h.append(1029)
-
-def daman2(h):
-    h.append(501)
-
-#daman(array)
-daman2(array)
-print(array)
 """
 
 array2 = np.arange(15).reshape(5,3)
