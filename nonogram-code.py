@@ -382,28 +382,6 @@ hello.printGrid()
 
 
 array = np.full((5,3), 10)
-"""
-#print(array)
-
-pointer = array[1]
-
-#print(pointer)
-pointer[2] = 2
-
-print(array)
-
-condition = np.index_exp[::,2]
-condition2 = np.index_exp[1,::]
-
-print(array[condition])
-
-print(condition)
-print(condition2)
-
-"""
-"""
-array = [1,2,3,4,5]
-"""
 
 array2 = np.arange(15).reshape(5,3)
 
