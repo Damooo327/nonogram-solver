@@ -333,19 +333,6 @@ def checkCompleteness(array, numbers):
         return newArray+copyOfArray
         
 
-
-            
-
-        
-
-        
-
-        
-
-
-
-
-
 # Example code
 cols = [[4,2],[6,1,1],[3,3,3],[2,3,1,1,1],[8,1],[6,3],[4,5],[4,5],[10],[9],[8,2],[6,3],[1,1,4,3],[2,3],[3,2]]
 
@@ -369,9 +356,11 @@ rows = [[3],
 
 exampleNonogram = nonogramEncoding((15,15), rows, cols)
 hello = nonogram_solver((15,15), rows, cols)
+
 hello.nonogramSolve()
-hello.fillSolvableRowCol([7,3],8)
+#hello.fillSolvableRowCol([7,3],8)
 hello.printGrid()
+
 #print(hello.grid)
 
 #print(checkSolvableRowCol([7,5,1],15))
